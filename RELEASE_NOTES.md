@@ -11,6 +11,12 @@ Breaking changes *can* still occur in minor versions and patches, if the alterna
 
 
 
+## 0.1.1
+
+This patch adds macOS support to the package.
+
+
+
 ## 0.1
 
 This is the very first beta release of EmojiKit.
