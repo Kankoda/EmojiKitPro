@@ -4,7 +4,7 @@
 
 <p align="center">
     <img src="https://img.shields.io/github/v/release/Kankoda/EmojiKit?color=%2300550&sort=semver" alt="Version" />
-    <img src="https://img.shields.io/badge/Swift-5.7-orange.svg" alt="Swift 5.7" />
+    <img src="https://img.shields.io/badge/Swift-5.8-orange.svg" alt="Swift 5.8" />
     <a href="https://twitter.com/kankodahq">
         <img src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fkankodahq" alt="Twitter: @kankodahq" title="Twitter: @kankodahq" />
     </a>
