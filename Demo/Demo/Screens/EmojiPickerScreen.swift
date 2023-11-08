@@ -21,6 +21,7 @@ struct EmojiPickerScreen: View {
         ScrollView(.vertical) {
             try? Emoji.Picker(
                 selection: $selection,
+                emojis: Emoji.all.matching(query),
                 config: .demoPicker
             ) {
                 $0.view

@@ -19,6 +19,10 @@
 
 EmojiKit helps you manage emojis in Swift-based software on all major Apple platforms (iOS, macOS, tvOS and watchOS).
 
+<p align="center">
+    <img src ="Resources/Demo.gif" width="650" />
+</p>
+
 EmojiKit provides you with all you need to work with emojis, including unicode information, localization support, categories, skin tones, version information, etc. It also includes UI components like emoji grids and pickers.
 
 
