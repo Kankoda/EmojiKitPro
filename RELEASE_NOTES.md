@@ -11,6 +11,12 @@ Breaking changes *can* still occur in minor versions and patches, if the alterna
 
 
 
+## 0.1.2
+
+This patch fixes incorrect bundle logic and removes the scrollbar within the emoji picker.
+
+
+
 ## 0.1.1
 
 This patch adds macOS support to the package.

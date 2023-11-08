@@ -12,8 +12,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "EmojiKit",
-            url: "https://github.com/Kankoda/EmojiKit/releases/download/0.1.1_binary/EmojiKit.zip",
-            checksum: "a747d73e4be57be9ad597be9bcb24c58f9e00faf324d49c53b587368aca83b49"
+            url: "https://github.com/Kankoda/EmojiKit/releases/download/0.1.2_binary/EmojiKit.zip",
+            checksum: "c1af49e1c2e73a202daa07d0a73e5703ebe35ca07f4e2fbc644f22cae825b2ed"
         )
     ]
 )
