@@ -11,15 +11,23 @@ Breaking changes *can* still occur in minor versions and patches, if the alterna
 
 
 
-## 0.1.2
+## 0.2
 
-This patch fixes incorrect bundle logic and removes the scrollbar within the emoji picker.
+This update tweaks a few things in EmojiKit.
 
+### ✨ New Features
 
+* `Emoji.GridConfiguration` can now be created with just a font size.
+* `LazyHGrid` and `LazyVGrid` has new EmojiKit-based initializers.
 
-## 0.1.1
+### 💡 Adjustments
 
-This patch adds macOS support to the package.
+* `Image` extensions replace individual assets with a category-based function.
+
+### 🐛 Bug Fixes
+
+* This update fixes a problem that made the SDK not include macOS support
+* This update fixes a bundle problem when resolving images and localized strings.
 
 
 

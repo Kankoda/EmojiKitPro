@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A942CF012AFC49430061D59E /* EmojiKit in Frameworks */ = {isa = PBXBuildFile; productRef = A942CF002AFC49430061D59E /* EmojiKit */; };
+		A942CF042AFD174F0061D59E /* EmojiKit in Frameworks */ = {isa = PBXBuildFile; productRef = A942CF032AFD174F0061D59E /* EmojiKit */; };
 		A9A61BF62AFBE5AA00730457 /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A61BF52AFBE5AA00730457 /* DemoApp.swift */; };
 		A9A61BF82AFBE5AA00730457 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A61BF72AFBE5AA00730457 /* ContentView.swift */; };
 		A9A61BFA2AFBE5AB00730457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A61BF92AFBE5AB00730457 /* Assets.xcassets */; };
@@ -19,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A942CF022AFD17430061D59E /* emojikitsource */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = emojikitsource; path = ../../emojikitsource; sourceTree = "<group>"; };
 		A9A61BF22AFBE5AA00730457 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A61BF52AFBE5AA00730457 /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
 		A9A61BF72AFBE5AA00730457 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A942CF012AFC49430061D59E /* EmojiKit in Frameworks */,
+				A942CF042AFD174F0061D59E /* EmojiKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +97,7 @@
 		A9A61C0C2AFBEED900730457 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				A942CF022AFD17430061D59E /* emojikitsource */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -124,7 +126,7 @@
 			);
 			name = Demo;
 			packageProductDependencies = (
-				A942CF002AFC49430061D59E /* EmojiKit */,
+				A942CF032AFD174F0061D59E /* EmojiKit */,
 			);
 			productName = Demo;
 			productReference = A9A61BF22AFBE5AA00730457 /* Demo.app */;
@@ -156,7 +158,6 @@
 			);
 			mainGroup = A9A61BE92AFBE5AA00730457;
 			packageReferences = (
-				A942CEFF2AFC49430061D59E /* XCRemoteSwiftPackageReference "EmojiKit" */,
 			);
 			productRefGroup = A9A61BF32AFBE5AA00730457 /* Products */;
 			projectDirPath = "";
@@ -404,21 +405,9 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		A942CEFF2AFC49430061D59E /* XCRemoteSwiftPackageReference "EmojiKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Kankoda/EmojiKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.2;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		A942CF002AFC49430061D59E /* EmojiKit */ = {
+		A942CF032AFD174F0061D59E /* EmojiKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A942CEFF2AFC49430061D59E /* XCRemoteSwiftPackageReference "EmojiKit" */;
 			productName = EmojiKit;
 		};
 /* End XCSwiftPackageProductDependency section */

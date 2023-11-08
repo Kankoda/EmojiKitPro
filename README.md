@@ -1,16 +1,12 @@
 <p align="center">
-    <img src ="Resources/Logo_GitHub.png" alt="EmojiKit Logo" title="EmojiKit" width=600 />
+    <img src ="Resources/Logo_GitHub.png" alt="EmojiKit Logo" title="EmojiKit" />
 </p>
 
 <p align="center">
     <img src="https://img.shields.io/github/v/release/Kankoda/EmojiKit?color=%2300550&sort=semver" alt="Version" />
     <img src="https://img.shields.io/badge/Swift-5.8-orange.svg" alt="Swift 5.8" />
-    <a href="https://twitter.com/kankodahq">
-        <img src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fkankodahq" alt="Twitter: @kankodahq" title="Twitter: @kankodahq" />
-    </a>
-    <a href="https://mastodon.social/@kankoda">
-        <img src="https://img.shields.io/mastodon/follow/110888068770108814?domain=https%3A%2F%2Fmastodon.social&label=Mastodon&style=social" alt="Mastodon: @kankoda@mastodon.social" title="Mastodon: @kankoda@mastodon.social" />
-    </a>
+    <a href="https://twitter.com/kankodahq"><img src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fkankodahq" alt="Twitter: @kankodahq" title="Twitter: @kankodahq" /></a>
+    <a href="https://mastodon.social/@kankoda"><img src="https://img.shields.io/mastodon/follow/110888068770108814?domain=https%3A%2F%2Fmastodon.social&label=Mastodon&style=social" alt="Mastodon: @kankoda@mastodon.social" title="Mastodon: @kankoda@mastodon.social" /></a>
 </p>
 
 
