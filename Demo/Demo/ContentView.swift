@@ -28,7 +28,7 @@ struct ContentView: View {
                 DemoScreen.emojis.link
                 DemoScreen.categories.link
                 DemoScreen.picker.link
-            }
+            }.navigationTitle("EmojiKit Demo")
         } detail: {
             detailContent.id(id)
         }

@@ -30,28 +30,23 @@ struct EmojiCategoriesScreen: View {
 extension Emoji.Category {
     
     var gridHeader: some View {
-        Label {
-            Text(title)
-        } icon: {
-            keyboardIcon
-        }
-        .padding(5)
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .foregroundColor(.secondary)
+        label
+            .padding(.horizontal, 5)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .foregroundColor(.secondary)
     }
     
     @ViewBuilder
     func view(for query: String) -> some View {
         let emojis = (try? emojis.matching(query)) ?? []
         if !emojis.isEmpty {
-            DisclosureGroup {
+            VStack(spacing:20) {
+                gridHeader
                 try? Emoji.Grid(
                     emojis: (try? emojis.matching(query)) ?? []
                 ) { $0.view }
-            } label: {
-                gridHeader
             }
-            .padding(.horizontal, 10)
+            .padding()
             .tint(.secondary)
         }
     }

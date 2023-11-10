@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "emojikit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Kankoda/EmojiKit.git",
+      "state" : {
+        "revision" : "7c53ff7b30608df6c4a1d1897c63f4642367fbfd",
+        "version" : "0.2.0"
+      }
+    }
+  ],
+  "version" : 2
+}
