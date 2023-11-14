@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "Icon.png",
+      "filename" : "Icon-iOS-1024.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -13,7 +13,7 @@
       "size" : "16x16"
     },
     {
-      "filename" : "Icon-macOS-32 1.png",
+      "filename" : "Icon-macOS-32.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
@@ -37,7 +37,7 @@
       "size" : "128x128"
     },
     {
-      "filename" : "Icon-macOS-256 1.png",
+      "filename" : "Icon-macOS-256.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
@@ -49,7 +49,7 @@
       "size" : "256x256"
     },
     {
-      "filename" : "Icon-macOS-512 1.png",
+      "filename" : "Icon-macOS-512.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
