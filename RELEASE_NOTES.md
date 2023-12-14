@@ -11,6 +11,16 @@ Breaking changes *can* still occur in minor versions and patches, if the alterna
 
 
 
+## 0.3
+
+This update improves emoji localization.
+
+### ✨ New Features
+
+* `Emoji.Category` is now properly localized.
+
+
+
 ## 0.2
 
 This update tweaks a few things in EmojiKit.
