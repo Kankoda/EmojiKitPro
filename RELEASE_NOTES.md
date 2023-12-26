@@ -18,6 +18,12 @@ This update improves emoji localization.
 ### ✨ New Features
 
 * `Emoji.Category` is now properly localized.
+* `Emoji.GridPicker` now allows disabling the plain button style.
+
+### 🗑️ Deprecations
+
+* `Emoji.Picker` has been renamed to `GridPicker`.
+* `Emoji.PickerConfiguration` has been renamed to `GridPickerConfiguration`.
 
 
 
