@@ -18,12 +18,20 @@ This update improves emoji localization.
 ### ✨ New Features
 
 * `Emoji.Category` is now properly localized.
+* `Emoji.Grid` now provides an index to the view builder.
+* `Emoji.GridPicker` now provides an index to the view builder.
 * `Emoji.GridPicker` now allows disabling the plain button style.
+
+### 💡 Adjustments
+
+* `Emoji.Grid` uses a view builder struct instead of a tuple.
+* `Emoji.GridPicker` uses a view builder struct instead of a tuple.
 
 ### 🗑️ Deprecations
 
 * `Emoji.Picker` has been renamed to `GridPicker`.
 * `Emoji.PickerConfiguration` has been renamed to `GridPickerConfiguration`.
+* `LazyHGrid` and `LazyVGrid` extensions have been removed. 
 
 
 
